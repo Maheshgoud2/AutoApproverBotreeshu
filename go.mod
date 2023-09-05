@@ -1,4 +1,4 @@
-module github.com/Reeshuxd/AutoApproverBot
+module github.com/Maheshgoud2/AutoApproverBotreeshu
 
 // +heroku goVersion go1.17
 go 1.17
