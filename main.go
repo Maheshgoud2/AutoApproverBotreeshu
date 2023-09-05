@@ -51,7 +51,7 @@ func main() {
 		fmt.Println("Failed to start bot:", poll.Error())
 	}
 
-	fmt.Printf("@%s has been sucesfully started\n💝Made by @ItsReeshu\n", bot.Username)
+	fmt.Printf("@%s has been sucesfully started", bot.Username)
 	updater.Idle()
 }
 
@@ -75,7 +75,7 @@ Bot made with 💝 by <a href="t.me/AboutReeshu">Reeshu</a> for you!
 		&gotgbot.SendMessageOpts{
 			ReplyMarkup: gotgbot.InlineKeyboardMarkup{
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{{
-					{Text: "My Source Code", Url: "https://github.com/Reeshuxd/AutoApproverBot"},
+					{Text: "My Source Code", Url: "https://github.com/Maheshgoud2/AutoApproverBotreeshu"},
 				}},
 			},
 			ParseMode:             "html",
