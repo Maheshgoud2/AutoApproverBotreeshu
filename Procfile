@@ -1,1 +1,1 @@
-worker: bin/AutoApproverBot
+worker: bin/AutoApproverBotreeshu
